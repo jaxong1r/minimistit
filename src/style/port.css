@@ -1,0 +1,65 @@
+.port_wrapper{
+    display: flex;
+    gap: 125px;
+    margin-bottom: 80px;
+}
+.port_card{
+    width: 40%;
+height: 500px;
+padding: 103px 0;
+border-top: 1px solid #33323d;
+border-bottom: 1px solid #33323d;
+
+}
+.port_card h2{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+margin-bottom: 28px;
+}
+.port_card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+color: #33323d;
+opacity: 0.8;
+margin-bottom: 24px;
+}
+.port_card button{
+    width: 175px;
+height: 48px;
+border: 1px solid black;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #33323d;
+}
+@media(max-width:909px){
+    .pimg{
+        width: 50%;
+        height: 500px;
+    }
+    
+}
+@media(max-width:870px){
+    .port_wrapper{
+        display: block;
+    }
+    .pimg{
+        width: 100%;
+        margin: 40px auto 40px;
+        display: block;
+
+    }
+    .port_card{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+}

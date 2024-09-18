@@ -1,0 +1,159 @@
+.header_wrapper{
+    padding: 55px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+li{
+    list-style: none;
+}
+.hw{
+    display: flex;
+    gap: 42px;
+}
+a{
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #33323d;
+}
+a:hover{
+    color: #5fb4a2;
+}.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 90%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+    
+  
+   
+  .faq {
+      margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  
+   
+  .burger div{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #000000;
+      border-radius: 6px;
+      z-index: 10;
+      transition: 0.3s ease;
+  
+  }
+  .active .div{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #ffffff;
+      border-radius: 6px;
+      transform: rotate(-50deg) translate(-4px, 15px);
+      transition: 0.3s ease;
+  }
+  .burger .div1{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #000000;
+      border-radius: 6px;
+      z-index: 10;
+      transition: 0.3s ease;
+  
+  }
+  .active .div1{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #000000;
+      border-radius: 6px;
+     opacity: 0;
+     transition: 0.3s ease;
+  }
+  .burger .div2{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #000000;
+      border-radius: 6px;
+      z-index: 10;
+      transition: 0.3s ease;
+  }
+  .active .div2{
+      margin-bottom: 9px;
+      width: 40px;
+      height: 3px;
+      background-color: #fff;
+      border-radius: 6px;  
+      transform: rotate(50deg) translate(-4px, -15px);
+      transition: 0.3s ease;
+  }
+  .burger{
+      width: 50px;
+      height: 50px;
+      display: none;
+      position: relative;
+      cursor: pointer;
+      margin-left: 50px;
+  }
+  .burger div{
+      pointer-events: none;
+  }
+  .menu {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      align-items: center;
+      gap: 30px;
+  }
+  
+  .faq {
+      
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+  }
+  .modal{
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      inset: 0;
+      background-color: #000000e8;
+      transform: translateY(-2000px);
+      transition:500ms;
+  }
+  .modal a{
+      font-size: 27px;
+      color: #fff;
+      text-align: center;
+  }
+  .show{
+      transform: translateY(0px);
+      transition:500ms;
+  }
+  .oq{
+      background-color: #fff;
+  }
+  @media(max-width:670px){
+      .burger{
+          display: block;
+      }
+      
+      .faq a{
+          display: none;
+      }
+  }

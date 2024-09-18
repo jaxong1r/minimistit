@@ -1,0 +1,48 @@
+.hero_wrapper{
+    background-image: url("../image/hero.svg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: start;
+    margin-bottom: 150px;
+}
+.hero_card{
+    width: 445px;
+height: 357px;
+background: white;
+}
+.hero_card h1{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: -0.01em;
+color: #33323d;
+margin:56px 0 53px ;
+}
+.hero_card button{
+    width: 200px;
+height: 48px;
+background: #203a4c;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+@media(max-width:565px){
+    .hero_card{
+        width: 360px;
+    height: 340px;
+     
+    }
+    .hero_card h1{
+        font-size: 40px;
+    }
+
+}
